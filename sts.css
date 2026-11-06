@@ -1,0 +1,305 @@
+ body{
+    background-image: url(acapella.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family: "aver";
+    font-weight: lighter;
+    background-color:rgb(255, 174, 206);
+    font-size: 36px;
+    color: rgb(255, 253, 251);
+    text-align: center;
+    height: 60px;
+    width: 700px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgb(230, 184, 202);
+}
+
+h1:hover{
+    overflow: hidden;
+    transition: 0.3s ease;
+    transform: scale(1.2);
+}
+
+h2{
+    font-family: "swirl";
+    font-weight: lighter;
+    background-color:rgb(251, 244, 192);
+    font-size: 24px;
+    color: rgb(196, 128, 61);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgb(230, 184, 202);
+    
+}
+
+h2:hover{
+    overflow: hidden;
+    transition: 0.3s ease;
+    transform: scale(1.2);
+}
+
+h3{
+    font-family: "hello";
+    font-weight: lighter;
+    background-color:rgb(103, 219, 200);
+    font-size: 24px;
+    color: rgb(255, 253, 251);
+    text-align: center;
+    height: 40px;
+    width: fill;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgb(230, 184, 202);
+    height: 60px;
+    margin:10px;
+}
+
+h3:hover{
+    overflow: hidden;
+    transition: 0.3s ease;
+    transform: scale(1.2);
+}
+
+
+@font-face {
+    font-family: "swirl";
+    src: url(swirly_tops/Swirly\ Tops.otf);
+}
+ 
+@font-face {
+    font-family: "aver";
+    src: url("avermont_house/AvermontHouse_PERSONAL_USE_ONLY.otf");
+}
+
+@font-face {
+    font-family: "hello";
+    src: url("hello_baby/Hello\ Baby.otf");
+}
+
+div.container{
+    position: relative;
+    width: fill;
+    height: 200px;
+    background-image: url(mksr3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    margin-top: -10px;
+    border: dashed rgb(255, 195, 127);
+    display: flex;
+}
+
+div.midplane,div.content1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+div.budaya{
+    margin: 30px auto;
+    width: 750px;
+    background-color: beige;
+    color: rgb(191, 108, 130);
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px dotted palevioletred;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+ div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:3px dotted #55cac0;
+    margin-right: -50px;
+ }
+
+ div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    padding: 30px;
+}
+
+ div.Isi{
+    height: 200px;
+    width: 500px;
+    text-indent: 500px;
+    margin-right: -50px;
+    margin-top: -100px;
+ }
+
+ .Isi p{
+    text-indent: 30px;
+    justify-content: center;
+    text-align: justify;
+    width: 400px;
+    padding: 30px;
+ }
+
+ div.isis{
+    width: fill;
+    color: rgb(191, 108, 130);
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: -50px;
+ }
+
+
+div.isi1{
+    margin: 30px auto;
+    width: 700px;
+    height: 70px;
+    background-color: rgb(220, 245, 245);
+    color: rgb(34, 130, 130);
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed rgb(255, 183, 206);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+div.isi1 p{
+    text-indent: 30px;
+    justify-content: center;
+    text-align: justify;
+    width: 700px;
+}
+
+div.satu{
+    position: relative;
+    width: 400px;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:3px dotted #55cac0;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+div.bahan {
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+img{
+    padding: 10px;
+    border-radius: 20%;
+}
+
+ div.beras{
+    font-family:"Hillos";
+    font-weight: lighter;
+    color: rgb(148, 38, 82);
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: rgb(255, 174, 206);
+    box-shadow: 0 4px 8px 0 rgb(255, 116, 171);
+    margin-bottom: 25px;
+}
+
+div.beras:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+div.kacang{
+    font-family:"Hillos";
+    font-weight: lighter;
+    color: rgb(148, 38, 82);
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: rgb(255, 174, 206);
+    box-shadow: 0 4px 8px 0 rgb(255, 116, 171);
+    margin-bottom: 25px;
+}
+div.kacang:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+div.rempah{
+    font-family:"Hillos";
+    font-weight: lighter;
+    color: rgb(148, 38, 82);
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: rgb(255, 174, 206);
+    box-shadow: 0 4px 8px 0 rgb(255, 116, 171);
+    margin-bottom: 25px;    
+}
+div.rempah:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+div.sapi{
+    font-family:"Hillos";
+    font-weight: lighter;
+    color: rgb(148, 38, 82);
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: rgb(255, 174, 206);
+    box-shadow: 0 4px 8px 0 rgb(255, 116, 171);
+    margin-bottom: 25px;
+}
+div.sapi:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+div.video{
+    margin-top: -50px;
+    color: rgb(46, 148, 156);
+}

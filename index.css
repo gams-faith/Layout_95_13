@@ -1,0 +1,158 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.header{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+/* style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color: pink;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: azure;
+    color: brown;
+}
+
+.footer{ 
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+
+/* style pada table */
+table, th, td{
+border:1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+th, td{
+    padding: 8px;
+}
+tr{
+    background-color: aquamarine;
+}
+
+tr:nth-child(even){
+    background-color: hotpink;
+}
+
+tr:hover{
+    background-color: coral;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+ol {
+    background-color: rgb(255, 200, 227);
+    border: 3px solid rgb(255, 155, 216);
+    padding: 6px 0;
+    margin: 10px;
+    list-style-position: inside;
+}
+
+ol li{
+    background-color: rgb(147, 255, 244);
+    border: 3px solid rgb(128, 255, 210);
+    padding: 6px 12px;
+    margin: 6px 0;
+    text-align: justify;
+}
+
+ol li:hover{
+     background-color: aquamarine;
+}
+
+ul {
+    background-color: rgb(144, 255, 248);
+    border: 3px solid rgb(254, 156, 197);
+    padding: 6px 0;
+    margin: 10px;
+    list-style-position: inside;
+}
+
+ul li{
+    background-color: rgb(255, 168, 210);
+    border: 3px solid rgb(255, 130, 207);
+    padding: 6px 12px;
+    margin: 6px 0;
+    text-align: justify;
+}
+
+ul li:hover{ 
+    background-color: aquamarine;
+}
+
+.buah {
+    background-color: rgb(252, 255, 208);
+    border: 3px, dotted yellowgreen;
+}
+
+.buah li{
+    background-color: aliceblue;
+}
+
+.lorem{
+    background-color: rgb(217, 233, 255);
+    border: 3px, dotted rgb(255, 196, 124);
+}
+
+.lorem li{
+    background-color: rgb(255, 255, 171);
+}
+
+.lorem li:hover{
+    background-color: rgb(255, 214, 127);
+}
+
+.me{
+    background-color: rgb(255, 180, 200);
+    border: 3px dashed palevioletred;
+}
+
+.me li{
+    background-color: rgb(208, 224, 255);
+
+}
+
+.me li:hover{ 
+    background-color: yellow;
+}
+
+.me svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+
